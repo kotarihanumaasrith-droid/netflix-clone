@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px;
+}
+
+#movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie {
+  cursor: pointer;
+}
+
+.movie img {
+  width: 220px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.movie img:hover {
+  transform: scale(1.1);
+}
